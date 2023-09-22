@@ -8,6 +8,12 @@
 <body>
     <?php $title = 'Strona główna' ?>
     <h1> <?=$title ?> </h1>
+    <ol style="list-style-type:decimal-leading-zero">
+    <li><a href="https://www.tvp.pl/">TVP </a></li>
+    <li><a href="https://pis.org.pl/">PIS </a></li>
+    <li><a href="https://pl.wikipedia.org/wiki/Donald_Tusk">TUSK</a> </li>
+    
+</ol>
     
     
 </body>
