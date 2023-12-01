@@ -1,0 +1,1 @@
+<h3>Jest godzina <?= date("H:i:s")?> dnia <?= date("d.m.Y")?>, jest to <?= date("z")?> dzien roku</h3>
