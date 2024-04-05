@@ -1,0 +1,16 @@
+2024-04-05 10:56:12
+Array
+(
+    [nazwa] => yhu8jiuh
+    [opcja_pakowania] => Array
+        (
+            [0] => koperta
+            [1] => folia bąbelkowa
+            [2] => karton
+        )
+
+    [radjo] => od 5 do 10 kg
+    [email] => ufyuirt
+    [inf] => ttuyftgffdgytryutrfyufyufhgjuu
+    [zgoda] => on
+)
