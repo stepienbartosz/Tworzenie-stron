@@ -1,0 +1,38 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+header{
+    background-color: bisque;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.left{
+    background-color: rgb(128, 208, 235);
+    flex: 0 0 250px;
+}
+
+.right{
+    flex: 1;
+}
+
+a{
+    border: solid 1px #87cce2;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+}

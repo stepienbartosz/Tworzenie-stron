@@ -15,7 +15,7 @@
             . mysqli_connect_error());
     }
 
-    $query = 'SELECT *, dzialy.Nazwa as nazwa_dzialu FROM ksiazki INNER JOin dzialy ON ksiazki.Id_dzial = dzialy.Id_dzial;';
+    $query = 'SELECT Tytul, dzialy.Nazwa as nazwa_dzialu FROM ksiazki INNER JOin dzialy ON ksiazki.Id_dzial = dzialy.Id_dzial;';
 
     $result = mysqli_query($conn, $query);
     if (mysqli_num_rows($result) > 0) {
