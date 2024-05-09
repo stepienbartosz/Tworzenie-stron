@@ -1,3 +1,0 @@
-<header>
-    Strona Główna
-</header>
