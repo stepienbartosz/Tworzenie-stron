@@ -13,6 +13,7 @@
         <tr>
             <th>Id_dzial</th>
             <th>Nazwa</th>
+            <th><a href="?page=dzialy_dodaj">xd</a></th>
         </tr>
 
         <?php
@@ -21,6 +22,7 @@
                 echo "<tr>
                     <td>".$row['Id_dzial']."</td>
                     <td>".$row['Nazwa']."</td>
+                    <td><a href='?page=dzialy_edycja'>edycja</a></td>
                 </tr>";
             }
         ?>
