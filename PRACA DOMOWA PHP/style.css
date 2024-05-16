@@ -62,3 +62,8 @@ h4{
 table{
     background-color: bisque;
 }
+
+.button{
+    margin: auto;
+    display: block;
+}
