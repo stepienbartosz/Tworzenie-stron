@@ -20,6 +20,7 @@
         <a class="<?= $strona == "pracownicy" ? "wybrane" : "" ?>" href="?page=pracownicy">Tabela Pracownicy</a>
         <a class="<?= $strona == "stanowiska" ? "wybrane" : "" ?>" href="?page=stanowiska">Tabela Stanowiska</a>
         <a class="<?= $strona == "wypozyczenia" ? "wybrane" : "" ?>" href="?page=wypozyczenia">Tabela Wypożyczenia</a>
+        <a class="<?= $strona == "login" ? "wybrane" : "" ?>" href="?page=login">Logowanie</a>
     </div>
 
     <div class="right">
